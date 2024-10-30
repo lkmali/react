@@ -1,0 +1,80 @@
+.header {
+    display:  flex;
+    border:1px solid black;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 100px;
+    height: 100px
+}
+
+.navBar   {
+    padding:  10px;
+    list-style-type : none;
+    display:  flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.navBar li {
+    margin: 10px;
+}
+.cardComponent {
+ display: flex;
+ flex-wrap: wrap;
+}
+.body {
+    margin: 10px;
+}
+
+.item-cart  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
+.item-class  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
+
+
+.item-cart :hover {
+    border:1px solid black;
+}
+
+.cart-image {
+    width: 100px;
+    margin: 10px;
+    height: 100px
+}
+
+.simmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.simmer-cart{
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    background-color: #f0f0f0 
+}
+
+.searchBody {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.searchButton{
+    width: 50px;
+}
+
+.userInformation  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
